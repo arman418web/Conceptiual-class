@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+     background-color: rgb(255, 255, 255);
+}
+/* spared styles */
+.container{
+    max-width: 1280px;
+    margin: 10px auto;
+}
+/* nav section styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.search-parent input{
+    background-color: rgb(6, 44, 67);
+    border-radius: 66px;
+    width: 550px;
+    padding: 15px 30px;
+    border: none;
+    color: aqua;
+}
+.search-parent{
+    position: relative;
+}
+.search-parent i{
+    position: absolute;
+    top: 16px;
+    left:12px;
+    color: rgb(0, 200, 255); 
+    
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+.nav-item li a{
+    text-decoration: none;
+    color: rgb(9, 31, 41);
+    font-size: 20px;
+   
+}
+/* Banner section styles  */
+.banner{
+    background-color: #FEEAE9;
+    display: flex;
+    align-items: center;
+
+    
+}
+.banner img{
+    width: 402px;
+    height: 378;
+}
+.banner H2{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+.banner-titel{
+    padding: 20px;
+
+}
+.banner p{
+    color: rgb(75, 75, 75);
+}
+.banner-price{
+    color: rgb(11, 59, 78);
+    font-weight: 900;
+    font-size: 35px;
+    text-shadow: 1px 2px 3.5px rgb(0, 6, 10);
+
+}
+.banner-btn{
+    background-color: rgb(11, 36, 42);
+    color: rgb(10, 165, 192);
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
